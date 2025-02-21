@@ -14,6 +14,19 @@ function App() {
     alert(`Registration successfully, Welcome ${user.name}`);
   };
 
+  const handleLogin = (credential) => {
+    if (
+      userData &&
+      userData.email === credential.email &&
+      userData.password === credential.password
+    ) {
+      setLoggedInUser(userData);
+      alert(`Welcome,${userData.name} !`);
+    } else {
+      alert("Invalid Credentials");
+    }
+  };
+
   return (
     <>
       <Login onLogin={handleLogin} />
