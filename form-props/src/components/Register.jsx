@@ -37,6 +37,48 @@ const Register = (onRegister) => {
         />
         <input
           type="text"
+          value={user.name}
+          name="name"
+          placeholder="Name"
+          onChange={handlechange}
+        />
+        <input
+          type="text"
+          value={user.email}
+          name="email"
+          placeholder="Email"
+          onChange={handlechange}
+        />
+        <input
+          type="text"
+          value={user.name}
+          name="name"
+          placeholder="Name"
+          onChange={handlechange}
+        />
+        <input
+          type="text"
+          value={user.email}
+          name="email"
+          placeholder="Email"
+          onChange={handlechange}
+        />
+        <input
+          type="text"
+          value={user.name}
+          name="name"
+          placeholder="Name"
+          onChange={handlechange}
+        />
+        <input
+          type="text"
+          value={user.email}
+          name="email"
+          placeholder="Email"
+          onChange={handlechange}
+        />
+        <input
+          type="text"
           value={user.password}
           name="password"
           placeholder="Password"
